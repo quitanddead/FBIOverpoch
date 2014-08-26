@@ -12,8 +12,8 @@ class wm_disp {
 				idc = 1;
 				x = safeZoneX+0.027;//safeZoneW*0.01;
 				y = safeZoneY+safeZoneH-0.16;
-				w = 0.151*safeZoneH;
-				h = 0.057*safeZoneH;
+				w = 0.302*safeZoneH;
+				h = 0.114*safeZoneH;
 				shadow = 2;
 				class Attributes
 				{
