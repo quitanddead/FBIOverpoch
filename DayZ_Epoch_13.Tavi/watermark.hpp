@@ -25,7 +25,7 @@ class wm_disp {
 				};
 				colorBackground[] = { 1, 0.3, 0, 0 };  // uncomment and increase 4th number to have a background
 				font = "EtelkaNarrowMediumPro";
-				size = 1*safeZoneH;
+				size = 0.06*safeZoneH;
 				type = 13;
 				style = 0;
 				text="";
