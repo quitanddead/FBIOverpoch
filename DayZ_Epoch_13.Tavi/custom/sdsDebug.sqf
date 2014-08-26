@@ -9,7 +9,7 @@ while {true} do
 	
 	hintSilent parseText format ["
 	<t size='1.25' font='Bitstream'align='center' color='#D60000'>FBI Presents</t><br/>
-	<t size='1.15' font='Bitstream'align='center' color='#D60000'>Overpoch & Origins</t><br/>
+	<t size='1.15' font='Bitstream'align='center' color='#D60000'>Overpoch Origins</t><br/>
 	<t size='1.15' font='Bitstream'align='center' color='#5882FA'>Survived %2 Days</t><br/>
 	<t size='0.95' font='Bitstream' align='left' color='#FFBF00'>Players Online: </t><t size='0.95 'font='Bitstream' align='right'>%3</t><br/>
 	<t size='0.95' font='Bitstream' align='left' color='#FFBF00'>Murders: </t><t size='0.95' font='Bitstream' align='right'>%4</t><br/>
