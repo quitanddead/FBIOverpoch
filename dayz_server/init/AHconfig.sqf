@@ -15,7 +15,7 @@
 /*  Color esc menu TXT    */ _EscColor = [0.6,0,0,1];
 /*  DebugMonitor TXT      */ _BottomDebug = "[FBI] Origins Overpoch"; //do not use " in this text.
 /*  DebugMonitor Key      */ _ODK =  0xCF;	/* google DIK_KeyCodes (0xCF is END) */
-/*  Use DebugMonitor      */ _DMS =  true;	/* true or false */	/* starts up with debugmonitor ON if true */
+/*  Use DebugMonitor      */ _DMS =  false;	/* true or false */	/* starts up with debugmonitor ON if true */
 /*  DebugMonitor Action   */ _DMW = false;	/* true or false */	/* "Debug" option on mousewheel */
 /*  Mod EPOCH ?           */ _MEH =  true;	/* true or false */
 /* ********************************************************************************* */
@@ -46,7 +46,7 @@
 /*  Check CMDMenus ?      */ _CCM =  true;	/* true or false */	/* recommended:  true */	/* only disable this if you know what you are doing. */
 /*  BLOCK ALL CMDMenus    */ _BCM = false;	/* true or false */	/* recommended:  true */	/* we don't need commandingMenus. so have this true. */
 /*  Check Actions ?       */ _CSA = true;	/* true or false */	/* recommended: false */	/* this checks mousewheel actions */
-/*  Force Terrain Grid ?  */ _FTG =    25;	/* 50, 25, 12.5  */	/* recommended:    25 */	/* if set to 50 grass will be very low for better client FPS */
+/*  Force Terrain Grid ?  */ _FTG =    50;	/* 50, 25, 12.5  */	/* recommended:    25 */	/* if set to 50 grass will be very low for better client FPS */
 /* ********************************************************************************* */
 /*  ALLOWED Custom Dialogs are only used if you have  _CUD =  true;					 */
 /*  If you want install custom scripts using dialog windows, you can add IDD numbers */
