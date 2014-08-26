@@ -188,6 +188,7 @@ class CfgSounds
 class RscTitles
 {
 #include "addons\playerhud\hud.hpp"
+#include "watermark.hpp"
 };
 
 #include "defines.hpp"
@@ -196,3 +197,5 @@ class RscTitles
 #include "gold\give_player_dialog.hpp"
 
 #include "custom\snap_pro\snappoints.hpp"
+
+
