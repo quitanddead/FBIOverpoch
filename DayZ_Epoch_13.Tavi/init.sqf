@@ -134,7 +134,10 @@ waitUntil {!isNil ("PVDZE_plr_LoginRecord")}; if (dayzPlayerLogin2 select 2) the
 [] execVM "custom\safezone\sdsSafeZone.sqf";
 
 //SDSDebug
+[] execVM "custom\sdsDebugKey.sqf";
 [] execVM "custom\sdsDebug.sqf";
+
+
 //Watermark
 if (!isNil "server_name") then {
 	[] spawn {
