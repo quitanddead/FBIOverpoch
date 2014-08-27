@@ -16,7 +16,7 @@ Actionmenu =
 		//["Action Menu", [2], "#USER:ActionMenua", -5, [["expression", ""]], "1", "1"],
 		["Self Bloodbag", [3],  "", -5, [["expression", format[EXECscript1,"bloodbag.sqf"]]], "1", "1"],
 		["Commit Suicide", [3],  "", -5, [["expression", format[EXECscript1,"suicide.sqf"]]], "1", "1"],
-		//["Deploy Menu", [3], "#USER:DeployMenu", -5, [["expression", ""]], "1", "1"],
+		["Deploy Menu", [3], "#USER:DeployMenu", -5, [["expression", ""]], "1", "1"],
 		["Color Filters", [4], "#USER:SkyMenu", -5, [["expression", ""]], "1", "1"],
 		["View Distance (Better FPS)", [5], "#USER:FogMenu", -5, [["expression", ""]], "1", "1"],
 		//["Donations", [6], "#USER:DonatorMenu", -5, [["expression", ""]], "1", "1"],

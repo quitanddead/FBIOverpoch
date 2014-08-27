@@ -15,7 +15,7 @@
 /*  Color esc menu TXT    */ _EscColor = [0.6,0,0,1];
 /*  DebugMonitor TXT      */ _BottomDebug = "[FBI] Origins Overpoch"; //do not use " in this text.
 /*  DebugMonitor Key      */ _ODK =  0xCF;	/* google DIK_KeyCodes (0xCF is END) */
-/*  Use DebugMonitor      */ _DMS =  true;	/* true or false */	/* starts up with debugmonitor ON if true */
+/*  Use DebugMonitor      */ _DMS =  false;	/* true or false */	/* starts up with debugmonitor ON if true */
 /*  DebugMonitor Action   */ _DMW = false;	/* true or false */	/* "Debug" option on mousewheel */
 /*  Mod EPOCH ?           */ _MEH =  true;	/* true or false */
 /* ********************************************************************************* */
@@ -32,12 +32,12 @@
 /*  Vehicle ValidId ?     */ _UIC =  true;	/* true or false */	/* recommended:  true */	/* checks if ids on a vehicle are valid or not */
 
 /*  Cheatengine Checks ?  */ _UCC =  true;	/* true or false */	/* recommended:  true */	/* certain strings have been changed */
-/*  Use FileScan ?        */ _UFS =  true;	/* true or false */	/* recommended:  true */	/* spams the rpt but often finds hackers */
+/*  Use FileScan ?        */ _UFS =  false;	/* true or false */	/* recommended:  true */	/* spams the rpt but often finds hackers */
 /*  Use Anti Teleport?    */ _UAT =  true;	/* true or false */	/* recommended:  true */	/* true = teleports them back, false = only logging */
 /*  Use cut-scene ?       */ _UCS =  true;	/* true or false */	/* recommended:  true */	/* dynamicText ~ often colored, animated or used in credits */
 /*  Use Damage Check ?    */ _UDC =  true;	/* true or false */	/* recommended:  true */	/* try to catch Hacks that change the damage value of weapons */
 
-/*  Remove "itemsAdded"   */ _RAI =  true;	/* true or false */	/* recommended:  true */	/* might remove items from a custom crafting system.. */
+/*  Remove "itemsAdded"   */ _RAI =  false;	/* true or false */	/* recommended:  true */	/* might remove items from a custom crafting system.. */
 /*  HACKED BOX Check ?    */ _CHB =  false;	/* true or false */	/* recommended:  true */	/* some epoch player might want to turn this one off */
 /*  Max Cargo Count ?     */ _MCC =  650;
 
@@ -45,7 +45,7 @@
 /*  Remove Keybinds ?     */ _RCK =  true;	/* true or false */	/* recommended:  true */	/* Removes custom Keybinds and sets back the default ones */
 /*  Check CMDMenus ?      */ _CCM =  true;	/* true or false */	/* recommended:  true */	/* only disable this if you know what you are doing. */
 /*  BLOCK ALL CMDMenus    */ _BCM = false;	/* true or false */	/* recommended:  true */	/* we don't need commandingMenus. so have this true. */
-/*  Check Actions ?       */ _CSA = true;	/* true or false */	/* recommended: false */	/* this checks mousewheel actions */
+/*  Check Actions ?       */ _CSA = false;	/* true or false */	/* recommended: false */	/* this checks mousewheel actions */
 /*  Force Terrain Grid ?  */ _FTG =    50;	/* 50, 25, 12.5  */	/* recommended:    25 */	/* if set to 50 grass will be very low for better client FPS */
 /* ********************************************************************************* */
 /*  ALLOWED Custom Dialogs are only used if you have  _CUD =  true;					 */

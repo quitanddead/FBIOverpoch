@@ -45,6 +45,13 @@ while {true} do
 //	if(AsReMixhud_humanity <= 199) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmbandit.paa'/>"; };
 	
 	_vitals ctrlSetStructuredText parseText format ["
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
 		<t size='0.9'> %3 </t><img size='0.8' align='right' image='addons\playerhud\icons\dollars.paa'/>   <br/>
 		<t size='0.9'> %14 </t><img size='0.8' align='right' image='addons\playerhud\icons\equip_safe_CA.paa'/>   <br/>",
 	AsReMixhud_blood,   //1

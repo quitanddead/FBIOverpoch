@@ -16,9 +16,9 @@ while {true} do
 	_Player = player;
 
 	AsReMixhud_zombieKills 	=     _Player getVariable["zombieKills",0];
-	AsReMixhud_headshots 	=     _Player getVariable ["headShots",0];
+	AsReMixhud_headshots 	=     _Player getVariable["headShots",0];
 	AsReMixhud_killsH 		=     _Player getVariable["humanKills",0];
-    Bank_Balance 		        =     _Player getVariable ["bank", 0];
+    Bank_Balance 		        =     _Player getVariable["bank",0];
 	AsReMixhud_killsB 		=     _Player getVariable["banditKills",0];
 	AsReMixhud_humanity 		=     _Player getVariable["humanity",0];
 	AsReMixhud_blood			=     _Player getVariable["USEC_BloodQty",12000];
@@ -37,21 +37,21 @@ while {true} do
 
 	_stime = 0;
 	if(serverTime > 36000)then{_stime = time;}else{_stime = serverTime;};
-	_hours = (_stime/60/60);
-	_hours = toArray (str _hours);
-	_hours resize 1;
-	_hours = toString _hours;
-	_hours = compile _hours;
-	_hours = call  _hours;
-	_minutes = floor(_stime/60);
-	_minutes2 = ((_minutes - (_hours*60)) min 60) max 0;if (_minutes2 < 10) then {_minutes2 = format ['0%1',_minutes2];};
+	_Hours = (_stime/60/60);
+	_Hours = toArray (str _Hours);
+	_Hours resize 1;
+	_Hours = toString _Hours;
+	_Hours = compile _Hours;
+	_Hours = call  _Hours;
+	_Minutes = floor(_stime/60);
+	_Minutes2 = ((_Minutes - (_Hours*60)) min 60) max 0;if (_Minutes2 < 10) then {_Minutes2 = format ['0%1',_Minutes2];};
 
 	if(AsReMixhud_humanity >= 5000) then { AsReMixhud_hmnicon = "<img size='0.9' image='addons\playerhud\icons\HeroHumanity.paa'/>"; };
 	if((AsReMixhud_humanity >= 200) && (AsReMixhud_humanity <= 4999)) then { AsReMixhud_hmnicon = "<img size='0.9' image='addons\playerhud\icons\CivHumanity.paa'/>"; };
 	if(AsReMixhud_humanity <= 199) then { AsReMixhud_hmnicon = "<img size='0.9' image='addons\playerhud\icons\BanditHumanity.paa'/>"; };
 	
 	_vitals ctrlSetStructuredText parseText format ["
-	
+	<t size='0.8' align='right'>~~~~~ Stats ~~~~~</t><br/>
 	<t size='0.9'> %1 </t><img size='0.9' align='right' image='addons\playerhud\icons\Players.paa'/><br/> 
 	<t size='0.9'> %2 </t><img size='0.9' align='right' image='addons\playerhud\icons\Health.paa'/><br/> 
 	<t size='0.9'> %2 %3 </t><br/> 
@@ -62,7 +62,7 @@ while {true} do
 	<t size='0.9'> %8 </t><img size='0.9' align='right' image='addons\playerhud\icons\ZombieKills.paa'/><br/>
 	<t size='0.9'> %9h %10min </t><img size='0.9' align='right' image='addons\playerhud\icons\Uptime.paa'/><br/>
 	<t size='0.9'> %12 </t><img size='0.9' align='right' image='addons\playerhud\icons\Fps.paa'/><br/>
-	",
+	<t size='0.8' align='right'>~~~~~~~~~~~~~~~~~</t><br/>",
 	AsReMixhud_Players,
 	AsReMixhud_blood,
 	[AsReMixhud_humanity] call BIS_fnc_numberText,
@@ -72,10 +72,10 @@ while {true} do
 	AsReMixhud_killsH,
 	AsReMixhud_killsB,
 	AsReMixhud_zombiekills,
-	_hours,
-	_minutes2,
+	_Hours,
+	_Minutes2,
 	AsReMixhud_fps
 	];
 	_vitals ctrlCommit 0;
-    sleep 1.5;
+    sleep 2;
 };

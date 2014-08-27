@@ -87,7 +87,7 @@ if (isServer) then {
 
 if (!isDedicated) then {
 	//Conduct map operations
-	[] execVM "Credits\Server_WelcomeCredits.sqf";
+	
 	0 fadeSound 0;
 	waitUntil {!isNil "dayz_loadScreenMsg"};
 	dayz_loadScreenMsg = (localize "STR_AUTHENTICATING");
@@ -95,18 +95,9 @@ if (!isDedicated) then {
 	//Run the player monitor
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
 	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";	
-	
-	// Safezone script
-	//[] execVM "safezone.sqf";
 
-	//Service Points
-	//	execVM "Thunder\service_point\service_point.sqf";
 
-	//Lights
-	//[false,12] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
-	
-	//["elevator"] execVM "elevator\elevator_init.sqf";
-};
+	};
 //#include "\z\addons\dayz_code\system\REsec.sqf"
 
 //Start Dynamic Weather
@@ -121,12 +112,13 @@ waitUntil {!isNil ("PVDZE_plr_LoginRecord")}; if (dayzPlayerLogin2 select 2) the
      // and this completely at the bottom
         execVM "gold\init.sqf";
         execVM "gold\addbankmarkers.sqf";
-     // my debug
+    // my debug
             if (!isDedicated) then {
             if (DZE_AsReMix_PLAYER_HUD) then {
             execVM "addons\playerhud\playerHud.sqf"//AsReMix Player HUD
             };
-            };
+			[] execVM "Credits\Server_WelcomeCredits.sqf";
+           };
 [] execVM "R3F_ARTY_AND_LOG\init.sqf";
 
 // WPD's Action Menu
