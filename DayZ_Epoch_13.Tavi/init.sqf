@@ -136,7 +136,7 @@ waitUntil {!isNil ("PVDZE_plr_LoginRecord")}; if (dayzPlayerLogin2 select 2) the
 
 //SDSDebug
 [] execVM "custom\sdsDebugKey.sqf";
-[] execVM "custom\sdsDebug.sqf";
+//[] execVM "custom\sdsDebug.sqf";
 
 
 //Watermark
