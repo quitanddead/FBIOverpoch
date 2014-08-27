@@ -3587,10 +3587,10 @@ if ("+str _UDC+") then
 					<t size='1' font='Bitstream' align='left' color='#FFBF00'>FPS: </t><t size='1' font='Bitstream' align='right' color='#21F50A'>%8</t><br/>
 					<t size='1' font='Bitstream' align='Center' color='#CC0000'>%7</t>
 					"",
-					//_txt,
+					_txt,
 					(r_player_blood),
 					round (player getVariable['humanity', 0]),
-					//_pic,
+					_pic,
 					_hours,
 					_minutes2,
 					_BottomDebug,
