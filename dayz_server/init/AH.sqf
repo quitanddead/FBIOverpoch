@@ -3543,6 +3543,7 @@ if ("+str _UDC+") then
 				_BottomDebug = "+(str _BottomDebug)+";
 				while {debugMonitorX} do
 				{
+				
 					_pic = (getText (configFile >> 'CfgVehicles' >> (typeOf vehicle player) >> 'picture'));
 					if (player == vehicle player) then {_pic = (getText (configFile >> 'CfgWeapons' >> (currentWeapon player) >> 'picture'));
 					}else{_pic = (getText (configFile >> 'CfgVehicles' >> (typeOf vehicle player) >> 'picture'));};
@@ -3575,21 +3576,21 @@ if ("+str _UDC+") then
 					<t size='1' font='Bitstream' align='Center' >[%1]</t><br/>
 					<t size='0.8' font='Bitstream' align='Center' >Players Online: %12</t><br/>
 					<img size='4.75' image='%4'/><br/>
-					<t size='1' font='Bitstream' align='left' color='#CC0000'>Blood: </t><t size='1' font='Bitstream' align='right'>%2</t><br/>
-					<t size='1' font='Bitstream' align='left' color='#0066CC'>Humanity: </t><t size='1' font='Bitstream' align='right'>%3</t><br/>
+					<t size='1' font='Bitstream' align='left' color='#800000'>Blood: </t><t size='1' font='Bitstream' align='right'>%2</t><br/>
+					<t size='1' font='Bitstream' align='left' color='#0D82AD'>Humanity: </t><t size='1' font='Bitstream' align='right'>%3</t><br/>
 					<br/>
 					<t size='1' font='Bitstream' align='left' color='#FFBF00'>Zombie Kills: </t><t size='1' font='Bitstream' align='right'>%9</t><br/>
 					<t size='1' font='Bitstream' align='left' color='#FFBF00'>Murders: </t><t size='1' font='Bitstream' align='right'>%10</t><br/>
 					<t size='1' font='Bitstream' align='left' color='#FFBF00'>Bandits Killed: </t><t size='1' font='Bitstream' align='right'>%11</t><br/>
 					<br/>
-					<t size='1' font='Bitstream' align='left' color='#FFBF00'>UPTIME: </t><t size='1' font='Bitstream' align='right'>%5h %6min</t><br/>
-					<t size='1' font='Bitstream' align='left' color='#FFBF00'>FPS: </t><t size='1' font='Bitstream' align='right'>%8</t><br/>
+					<t size='1' font='Bitstream' align='left' color='#FFBF00'>UPTIME: </t><t size='1' font='Bitstream' align='right' color='#21F50A'>%5h %6min</t><br/>
+					<t size='1' font='Bitstream' align='left' color='#FFBF00'>FPS: </t><t size='1' font='Bitstream' align='right' color='#21F50A'>%8</t><br/>
 					<t size='1' font='Bitstream' align='Center' color='#CC0000'>%7</t>
 					"",
-					_txt,
+					//_txt,
 					(r_player_blood),
 					round (player getVariable['humanity', 0]),
-					_pic,
+					//_pic,
 					_hours,
 					_minutes2,
 					_BottomDebug,
