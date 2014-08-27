@@ -60,5 +60,5 @@ _role6names = ["Coming soon..."];
 	[_role3, _role3names],
 	[_role4, _role4names],
 	[_role5, _role5names],
-	[_role6, _role6names],		//make SURE the last one here does NOT have a , at the end
+	[_role6, _role6names]		//make SURE the last one here does NOT have a , at the end
 ];
