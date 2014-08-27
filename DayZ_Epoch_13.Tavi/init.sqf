@@ -87,6 +87,7 @@ if (isServer) then {
 
 if (!isDedicated) then {
 	//Conduct map operations
+	[] execVM "Server_WelcomeCredits.sqf";
 	0 fadeSound 0;
 	waitUntil {!isNil "dayz_loadScreenMsg"};
 	dayz_loadScreenMsg = (localize "STR_AUTHENTICATING");
