@@ -87,7 +87,7 @@ if (isServer) then {
 
 if (!isDedicated) then {
 	//Conduct map operations
-	[] execVM "Server_WelcomeCredits.sqf";
+	[] execVM "Credits\Server_WelcomeCredits.sqf";
 	0 fadeSound 0;
 	waitUntil {!isNil "dayz_loadScreenMsg"};
 	dayz_loadScreenMsg = (localize "STR_AUTHENTICATING");
@@ -134,9 +134,6 @@ waitUntil {!isNil ("PVDZE_plr_LoginRecord")}; if (dayzPlayerLogin2 select 2) the
 //SafeZone
 [] execVM "custom\safezone\sdsSafeZone.sqf";
 
-//SDSDebug
-[] execVM "custom\sdsDebugKey.sqf";
-//[] execVM "custom\sdsDebug.sqf";
 
 
 //Watermark
