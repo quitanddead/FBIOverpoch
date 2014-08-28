@@ -26,7 +26,7 @@ while {true} do
 	AsReMixhud_puid			= "";
     AsReMixhud_hmnicon 		= "";
 	AsReMixhud_fps 			= (round diag_fps);
-	AsReMixhud_svrname		= "Amnesia";
+	AsReMixhud_svrname		= "FBI Overpoch Origins";
 	
 	_stime = 0;
 	if(serverTime > 36000)then{_stime = time;}else{_stime = serverTime;};
@@ -40,23 +40,26 @@ while {true} do
 	_minutes2 = ((_minutes - (_hours*60)) min 60) max 0;if (_minutes2 < 10) then {_minutes2 = format ['0%1',_minutes2];};
     
 
-	//if(AsReMixhud_humanity >= 5000) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmhero.paa'/>"; };
-	//if((AsReMixhud_humanity >= 200) && (AsReMixhud_humanity <= 4999)) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmcivil.paa'/>"; };
-//	if(AsReMixhud_humanity <= 199) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmbandit.paa'/>"; };
-	
+	/*
+	if(AsReMixhud_humanity >= 5000) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmhero.paa'/>"; };
+	if((AsReMixhud_humanity >= 200) && (AsReMixhud_humanity <= 4999)) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmcivil.paa'/>"; };
+	if(AsReMixhud_humanity <= 199) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmbandit.paa'/>"; };
+	*/
 	_vitals ctrlSetStructuredText parseText format ["
 		<br/>
 		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<t size='0.9'> %3 </t><img size='0.8' align='right' image='addons\playerhud\icons\dollars.paa'/>   <br/>
-		<t size='0.9'> %14 </t><img size='0.8' align='right' image='addons\playerhud\icons\equip_safe_CA.paa'/>   <br/>",
+		<t size='0.9' color='#31D50B'> %2 </t>	<br/>
+		<t size='0.9' color='#0F8FD1'> %10 </t>	<img size='0.8' align='right' image='addons\playerhud\icons\As_killh.paa'/>   <br/>
+		<t size='0.9' color='#900000'> %9 </t>	<img size='0.8' align='right' image='addons\playerhud\icons\As_killb.paa'/>	<br/>		
+		<t size='0.9' color='#900000'> %4 </t>	<img size='0.8' align='right' image='addons\playerhud\icons\As_zkill.paa'/>   <br/>
+	
+		<t size='0.9' color='#00DA00'> %3 </t>	<img size='0.8' align='right' image='addons\playerhud\icons\dollars.paa'/>   <br/>
+		<t size='0.9' color='#00DA00'> %14 </t>	<img size='0.8' align='right' image='addons\playerhud\icons\equip_safe_CA.paa'/>   <br/>		
+		<t size='0.9' color='#00DA00'> %11:%12</t> <t size='0.7' align='right' color='#ffffff'>Uptime:</t> <br />
+		<t size='0.9' color='#00DA00'> %13</t> <t size='0.9' align='right' color='#ffffff'>FPS:</t>   <br/>",
 	AsReMixhud_blood,   //1
 	AsReMixhud_humanity,//2
-	AsReMixhud_headshots,//3
+	AsReMixhud_headshots,//3 Money In Wallet
 	AsReMixhud_zombiekills,//4
 	AsReMixhud_hmnicon,//5
 	name player,//6
