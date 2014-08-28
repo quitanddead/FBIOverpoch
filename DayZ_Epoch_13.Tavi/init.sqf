@@ -137,3 +137,11 @@ if (!isNil "server_name") then {
 		((uiNamespace getVariable "wm_disp") displayCtrl 1) ctrlSetText server_name;
 	};
 };
+
+
+p2_newspawn = compile preprocessFileLineNumbers "Scripts\Newspawn\newspawn_execute.sqf";
+waitUntil {!isNil ("PVDZE_plr_LoginRecord")};
+if (dayzPlayerLogin2 select 2) then
+{
+    player spawn p2_newspawn;
+};

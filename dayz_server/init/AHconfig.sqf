@@ -27,8 +27,8 @@
 /*  Break Functions ?     */ _BHF = true;	/* true or false */	/* recommended:  true */	/* break some known functions used by hacks! */
 /*  Use vehicle check?    */ _UVC = false;	/* true or false */	/* recommended: false */	/* using _ALLOWED_Vehicles and _FORBIDDEN_Vehicles lists */
 /*  Use zombie check?     */ _UZC = false;	/* true or false */	/* recommended:  true */	/* "Walk Amongst The Dead" or "ESS" needs this set to false */
-/*  Vehicle WHITELIST     */ _UVW = false;	/* true or false */	/* recommended: false */	/* if false - _ALLOWED_Vehicles won't not be used */
-/*  Vehicle Tradercheck   */ _VTC = false;	/* true or false */	/* recommended:  true */	/* checks if a player is near a trader when 'purchasing' a vehicle */
+/*  Vehicle WHITELIST     */ _UVW = false;	/* true or false */	/* recommended: false */	/* if false - _ALLOWED_Vehicles won"t not be used */
+/*  Vehicle Tradercheck   */ _VTC = false;	/* true or false */	/* recommended:  true */	/* checks if a player is near a trader when "purchasing" a vehicle */
 /*  Vehicle ValidId ?     */ _UIC =  true;	/* true or false */	/* recommended:  true */	/* checks if ids on a vehicle are valid or not */
 
 /*  Cheatengine Checks ?  */ _UCC =  true;	/* true or false */	/* recommended:  true */	/* certain strings have been changed */
@@ -44,13 +44,13 @@
 /*  Close Dialogs ?       */ _CUD =  true;	/* true or false */	/* recommended:  true */	/* Closes custom Dialogs (Menus) that are not in _ALLOWED_Dialogs */
 /*  Remove Keybinds ?     */ _RCK =  true;	/* true or false */	/* recommended:  true */	/* Removes custom Keybinds and sets back the default ones */
 /*  Check CMDMenus ?      */ _CCM =  true;	/* true or false */	/* recommended:  true */	/* only disable this if you know what you are doing. */
-/*  BLOCK ALL CMDMenus    */ _BCM = false;	/* true or false */	/* recommended:  true */	/* we don't need commandingMenus. so have this true. */
+/*  BLOCK ALL CMDMenus    */ _BCM = false;	/* true or false */	/* recommended:  true */	/* we don"t need commandingMenus. so have this true. */
 /*  Check Actions ?       */ _CSA = false;	/* true or false */	/* recommended: false */	/* this checks mousewheel actions */
 /*  Force Terrain Grid ?  */ _FTG =    50;	/* 50, 25, 12.5  */	/* recommended:    25 */	/* if set to 50 grass will be very low for better client FPS */
 /* ********************************************************************************* */
 /*  ALLOWED Custom Dialogs are only used if you have  _CUD =  true;					 */
 /*  If you want install custom scripts using dialog windows, you can add IDD numbers */
-/*  from the custom script's desc.h file included through MPMIssions/description.ext */
+/*  from the custom script"s desc.h file included through MPMIssions/description.ext */
 /*  ALLOWED Dialogs       */ _ALLOWED_Dialogs = [-1,106,2200,6900,6901,6902,6903,420420,41144];
 //	-1			Epoch Safe/Lockbox Keycode UI
 //	106		Inventory (Gear)
@@ -61,7 +61,7 @@
 //	129		Diary
 //	666,667	Clay Car Radio
 //	4444		Radio Communication
-//	65431,65432,65433,65434,65440,65441,65442		I don't remember where these are from.
+//	65431,65432,65433,65434,65440,65441,65442		I don"t remember where these are from.
 /* ********************************************************************************* */
 /*  Player that have one of the items in _ForbiddenWeapons in their inventory will get punished!  */
 
@@ -92,7 +92,8 @@
 	"RscDisplaySpawnSelecter","RscWatchMoreDir","#GETIN","RscStatus",
 	"RscCombatMode","RscFormations","RscTeam","RscSelectTeam","RscReply",
 	"RscCallSupport","#ACTION","#CUSTOM_RADIO","RscRadio","RscGroupRootMenu",
-	"BTC_Hud","#USER:ActionMenu","#USER:ActionMenua","#USER:SkyMenu","#USER:FogMenu","#USER:SkyMenu2","#USER:FogMenu2","#USER:DeployMenu","#USER:DamiSpawn"
+	"BTC_Hud","#USER:ActionMenu","#USER:ActionMenua","#USER:SkyMenu","#USER:FogMenu","#USER:SkyMenu2","#USER:FogMenu2","#USER:DeployMenu","#USER:DamiSpawn",
+	"#USER:newspawn","#USER:classes","#USER:Page4","#USER:Donator","#USER:Peasant"
 ];
 /* ********************************************************************************* */
 /*  ALLOWED Actions are only used if you have _CSA =  true;  */
