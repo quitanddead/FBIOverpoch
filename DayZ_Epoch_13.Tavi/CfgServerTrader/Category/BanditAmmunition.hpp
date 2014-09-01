@@ -44,12 +44,12 @@ class Category_577 {
 		buy[] ={50000,"Coins"};
 		sell[] ={30000,"Coins"};
 	}; 
-	class  10_Rnd_127x99_m107 {
+	class  10Rnd_127x99_m107 {
 		type = "trade_items";
 		buy[] ={2000,"Coins"};
 		sell[] ={1000,"Coins"};
 	}; 
-	class  5_Rnd_127x99_as50 {
+	class  5Rnd_127x99_as50 {
 		type = "trade_items";
 		buy[] ={2000,"Coins"};
 		sell[] ={1000,"Coins"};

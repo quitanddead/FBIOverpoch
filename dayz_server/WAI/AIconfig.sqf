@@ -243,7 +243,12 @@ ai_wep5 = [
 ];
 
 /// 6 ///
-ai_wep6 = [];
+ai_wep6 = [
+["FHQ_RSASS_TAN","FHQ_rem_20Rnd_762x51_PMAG_NT"],
+["RH_hk417saim","RH_20Rnd_762x51_hk417"],
+["RH_masbsdaim","30Rnd_556x45_StanagSD"],
+["skavil_M60e3","100Rnd_762x51_M240"]
+];
 
 /// Arrays used in "Random" for weapons///
 ai_wep_random = [ai_wep0,ai_wep1,ai_wep2,ai_wep3,ai_wep4];

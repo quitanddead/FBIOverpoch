@@ -8,7 +8,7 @@ Custom group spawns Eg.
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -21,7 +21,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -31,7 +31,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -41,7 +41,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -51,7 +51,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -61,7 +61,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -71,7 +71,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -81,7 +81,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -91,7 +91,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -101,7 +101,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -111,7 +111,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -121,7 +121,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -131,7 +131,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -141,7 +141,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -151,7 +151,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -161,7 +161,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -171,7 +171,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -181,7 +181,7 @@ Place your custom group spawns below
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"G_Mercenary_Default27",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
 
@@ -191,7 +191,7 @@ Custom static weapon spawns Eg. (with one position)
 [[[911.21544,4532.7612,2.6292224]], //position(s) (can be multiple).
 "M2StaticMG",             //Classname of turret
 0.4,					  //Skill level 0-1. Has no effect if using custom skills
-"Bandit2_DZ",			  //Skin "" for random or classname here.
+"gsc_scientist1",			  //Skin "" for random or classname here.
 1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
 2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
 "",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
@@ -203,7 +203,7 @@ Custom static weapon spawns Eg. (with mutiple positions)
 [[[911.21544,4532.7612,2.6292224],[921.21544,4532.7612,2.6292224]], //position(s) (can be multiple).
 "M2StaticMG",             //Classname of turret
 0.4,					  //Skill level 0-1. Has no effect if using custom skills
-"Bandit2_DZ",			  //Skin "" for random or classname here. 
+"gsc_scientist1",			  //Skin "" for random or classname here. 
 1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
 2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
 "",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
@@ -216,7 +216,7 @@ Place your custom static weapon spawns below
 [[[22437.3,20101.7,8.1287],[22559,20105,8.1287],[22879.4,19863.4,10.2653],[22141.6,19851.4,1.37462],[22518.6,20010.3,8.22713],[22478.2,20006.9,8.23055],[19403.5,21045.1,0],[22191.4,19267.4,0],[22199.3,19259.6,0]], //position(s) (can be multiple).
 "M2StaticMG",             //Classname of turret
 0.5,					  //Skill level 0-1. Has no effect if using custom skills
-"Bandit2_DZ",			  //Skin "" for random or classname here. 
+"gsc_scientist1",			  //Skin "" for random or classname here. 
 1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
 2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
 "",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)

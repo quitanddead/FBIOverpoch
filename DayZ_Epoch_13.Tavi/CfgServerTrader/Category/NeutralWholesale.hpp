@@ -41,8 +41,8 @@ class Category_636 {
 	};
 	class CinderBlocks {
 		type = "trade_items";
-		buy[] ={10000,"Coins"};
-		sell[] ={5000,"Coins"};
+		buy[] ={5000,"Coins"};
+		sell[] ={2500,"Coins"};
 	};
 	class PartPlywoodPack {
 		type = "trade_items";
@@ -51,8 +51,8 @@ class Category_636 {
 	};
 	class MortarBucket {
 		type = "trade_items";
-		buy[] ={10000,"Coins"};
-		sell[] ={5000,"Coins"};
+		buy[] ={5000,"Coins"};
+		sell[] ={2500,"Coins"};
 	};
 	class PartPlankPack {
 		type = "trade_items";
@@ -63,5 +63,10 @@ class Category_636 {
 		type = "trade_items";
 		buy[] ={3000,"Coins"};
 		sell[] ={1500,"Coins"};
+	};
+	class metal_floor_kit {
+		type = "trade_items";
+		buy[] ={2000,"Coins"};
+		sell[] ={1000,"Coins"};
 	};
 };

@@ -18,10 +18,10 @@ dayz_paraSpawn = false;
 //spawnMarkerCount = 4;
 
 //Controls animal spawn limits (Default: 8)
-dayz_maxAnimals = 8;
+dayz_maxAnimals = 20;
 
 //Enables the ability to tame dogs with raw meat. (Default: false)
-dayz_tameDogs = false;
+dayz_tameDogs = true;
 
 //Sets the lowest possible damage a fresh spawned vehicle will have. (Default: 0)
 DynamicVehicleDamageLow = 0;
@@ -73,7 +73,7 @@ DZE_DeathMsgSide = false;
 DZE_DeathMsgTitleText = true;
 
 //Change amount of ammo boxes that spawn on the server.
-MaxAmmoBoxes = 10;
+MaxAmmoBoxes = 50;
 
 //Change amount of mining veins on the server.
 MaxMineVeins = 50;
