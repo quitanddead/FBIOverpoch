@@ -2019,6 +2019,10 @@ class Mission
 			{				
 			};
 		};
+		
+		
+		
+		
 		class Item36
 		{
 			position[]={22614.5, 0, 19667.8};
@@ -2030,12 +2034,15 @@ class Mission
 			age="UNKNOWN";
 			name="sectorb";
 			expCond="(player distance sectorb) < 2500;";
-			expActiv="canbuild = false; secb = true; clearzeds = [] execVM ""custom\clearzedsb.sqf"";";
+			expActiv="canbuild = false; secb = true; clearzeds = [] execVM ""custom\clearzedsb.sqf""; inSafeZone = false;";
             expDesactiv="canbuild = true; secb = false; terminate clearzeds;";
 			class Effects
 			{
 			};
 		};
+		
+		
+		
 		class Item37
 		{
 			position[]={24470.5, 0, 24624.5};
