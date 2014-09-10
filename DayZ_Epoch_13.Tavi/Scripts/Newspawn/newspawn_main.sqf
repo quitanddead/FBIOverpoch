@@ -1,7 +1,11 @@
 pathtonewspawn = "Scripts\Newspawn\locations\";
 EXECscript1 = 'player execVM "'+pathtonewspawn+'%1"';
 
+<<<<<<< HEAD
 if ((getPlayerUID player) in ["0","0","0"]) then {
+=======
+if ((getPlayerUID player) in ["76561198085810227","0","0"]) then {
+>>>>>>> 5bc106bc3e6c48d5ac2e0d41b7be7b9bbdb29aa9
 newspawn =
 [
 	["",false],
