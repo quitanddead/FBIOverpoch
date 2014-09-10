@@ -3,7 +3,7 @@
 DZE_TRADER_SPAWNMODE = false;
 
 //Set the Amount of possible heli Crashes on Spawn
-MaxHeliCrashes= 10; // Default = 5
+MaxHeliCrashes= 5; // Default = 5
 
 //Enable full moon nights by setting this to true. (Default: false)
 dayz_fullMoonNights = true;
@@ -18,7 +18,7 @@ dayz_paraSpawn = false;
 //spawnMarkerCount = 4;
 
 //Controls animal spawn limits (Default: 8)
-dayz_maxAnimals = 20;
+dayz_maxAnimals = 8;
 
 //Enables the ability to tame dogs with raw meat. (Default: false)
 dayz_tameDogs = true;
@@ -36,10 +36,10 @@ DynamicVehicleFuelLow = 10;
 DynamicVehicleFuelHigh = 100;
 
 //Max number of zombies spawned per player. (Default: 40)
-dayz_maxLocalZombies = 40; // Default = 30
+dayz_maxLocalZombies = 30; // Default = 30
 
 //Total zombie limit (Default: 500)
-dayz_maxZeds = 500;
+dayz_maxZeds = 200;
 
 //Disables zombies attacking vehicles.  (Default: false)
 dayz_zedsAttackVehicles = false;
@@ -54,23 +54,14 @@ dayz_sellDistance_air = 40;
 //DZEdebug = false;
 
 //To change how many debris spawn edit the MaxDynamicDebris variable in the missions init.sqf.
-MaxDynamicDebris = 100; // Max number of road debris spawns (Default: 100)
+MaxDynamicDebris = 0; // Max number of road debris spawns (Default: 100)
 
 //Customize fresh spawn loadout
-<<<<<<< HEAD
 if ((getPlayerUID player) in ["76561198104914624","76561198085810227","0"]) then {
-	if(getPlayerUID  player) = "76561198104914624"{
 		DefaultMagazines = ["20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","Navy_SEAL_diver"];  
 		DefaultWeapons = ["RH_sc2sp","RH_uspsd","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
 		DefaultBackpack = "DZ_Patrol_Pack_EP1";  
 		DefaultBackpackItems = [""];
-	}
-	if(getPlayerUID  player) = "76561198085810227"{
-		DefaultMagazines = ["RH_20Rnd_762x51_hk417","RH_20Rnd_762x51_hk417","RH_20Rnd_762x51_hk417","RH_20Rnd_762x51_hk417","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","Navy_SEAL_diver"];  
-		DefaultWeapons = ["RH_hk417sp","RH_uspsd","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
-		DefaultBackpack = "DZ_Patrol_Pack_EP1";  
-		DefaultBackpackItems = [""];
-	}
 }
 else{
 DefaultMagazines = ["30Rnd_556x45_Stanag","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","ItemMorphine","ItemPainkiller","ItemWaterbottleBoiled","FoodSteakCooked"];  
@@ -78,13 +69,6 @@ DefaultWeapons = ["G36C","glock17_EP1","ItemFlashlight","ItemHatchet","ItemGPS",
 DefaultBackpack = "DZ_Patrol_Pack_EP1";  
 DefaultBackpackItems = [""];
 }
-=======
-DefaultMagazines = ["30Rnd_556x45_Stanag","ItemBandage","ItemBandage","17Rnd_9x19_glock17","17Rnd_9x19_glock17","ItemMorphine","ItemPainkiller","ItemWaterbottleBoiled","FoodSteakCooked"];  
-DefaultWeapons = ["G36C","glock17_EP1","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
-DefaultBackpack = "DZ_Patrol_Pack_EP1";  
-DefaultBackpackItems = [""];
-
->>>>>>> 5bc106bc3e6c48d5ac2e0d41b7be7b9bbdb29aa9
 //Customize Death Messages
 //Enables global chat messaging of player deaths. (Also requires enableRadio true;?)   (Default: false)
 DZE_DeathMsgGlobal = true;
