@@ -56,24 +56,24 @@ setTerrainGrid 20;	//sets terrain detail
 
 UserId = getPlayerUID player;
 	//Customize fresh spawn loadout
-	if (UserId ="76561198104914624") then {
+	if (UserId = "76561198104914624") then {
 		DefaultMagazines = ["20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","Navy_SEAL_diver"];  
 		DefaultWeapons = ["RH_sc2sp","RH_uspsd","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
 		DefaultBackpack = "DZ_Patrol_Pack_EP1";  
 		DefaultBackpackItems = [""];
-	}
+	};
 	if (UserId = "76561198085810227") then {
 		DefaultMagazines = ["20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","Navy_SEAL_diver"];  
 		DefaultWeapons = ["RH_sc2sp","RH_uspsd","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
 		DefaultBackpack = "DZ_Patrol_Pack_EP1";  
 		DefaultBackpackItems = [""];
-	}
+	};
 	else{
 		DefaultMagazines = ["30Rnd_556x45_Stanag","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","ItemMorphine","ItemPainkiller","ItemWaterbottleBoiled","FoodSteakCooked"];  
 		DefaultWeapons = ["G36C","glock17_EP1","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
 		DefaultBackpack = "DZ_Patrol_Pack_EP1";  
 		DefaultBackpackItems = [""];
-	}
+	};
 			
 //Load in compiled functions
 call compile preprocessFileLineNumbers "Thunder\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
