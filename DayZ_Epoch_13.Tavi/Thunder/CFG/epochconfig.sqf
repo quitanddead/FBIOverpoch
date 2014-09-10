@@ -3,7 +3,7 @@
 DZE_TRADER_SPAWNMODE = false;
 
 //Set the Amount of possible heli Crashes on Spawn
-MaxHeliCrashes= 5; // Default = 5
+//MaxHeliCrashes= 5; // Default = 5
 
 //Enable full moon nights by setting this to true. (Default: false)
 dayz_fullMoonNights = true;

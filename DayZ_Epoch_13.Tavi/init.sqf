@@ -27,8 +27,8 @@ spawnArea = 2500; // Default = 1500
 dayz_MapArea = 20000; // Default = 10000
 dayz_minpos = -26000; 
 dayz_maxpos = 26000;
-MaxHeliCrashes= 10; // Default = 5
-MaxVehicleLimit = 650;
+MaxHeliCrashes= 5; // Default = 5
+MaxVehicleLimit = 200;
 DZE_DeathMsgTitleText = true;
 DZE_MissionLootTable = true;
 DZE_DeathMsgGlobal = true;
