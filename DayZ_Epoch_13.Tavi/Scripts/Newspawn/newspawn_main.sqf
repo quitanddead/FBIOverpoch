@@ -1,27 +1,23 @@
-pathtonewspawn = "Scripts\Newspawn\locations\";
+pathtonewspawn = "newspawn\locations\";
 EXECscript1 = 'player execVM "'+pathtonewspawn+'%1"';
 
-<<<<<<< HEAD
 if ((getPlayerUID player) in ["0","0","0"]) then {
-=======
-if ((getPlayerUID player) in ["76561198085810227","0","0"]) then {
->>>>>>> 5bc106bc3e6c48d5ac2e0d41b7be7b9bbdb29aa9
-newspawn =
-[
-	["",false],
+	newspawn =
+	[
+		["",false],
 		["Select Spawn Point", [2], "#USER:Donator", -5, [["expression", ""]], "1", "1"],
 		["", [-1], "", -5, [["expression", ""]], "1", "0"],
-			["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
-		
-];} else {
-newspawn =
-[
-	["",false],
+		["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
+	];
+} else {
+	newspawn =
+	[
+		["",false],
 		["Select Spawn Point", [2], "#USER:Peasant", -5, [["expression", ""]], "1", "1"],
 		["", [-1], "", -5, [["expression", ""]], "1", "0"],
-			["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
-		
-];};
+		["Exit", [13], "", -3, [["expression", ""]], "1", "1"]	
+	];
+};
 
 Donator =
 [
