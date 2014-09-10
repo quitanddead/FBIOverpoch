@@ -56,19 +56,7 @@ dayz_sellDistance_air = 40;
 //To change how many debris spawn edit the MaxDynamicDebris variable in the missions init.sqf.
 MaxDynamicDebris = 0; // Max number of road debris spawns (Default: 100)
 
-//Customize fresh spawn loadout
-if ((getPlayerUID player) in ["76561198104914624","76561198085810227","0"]) then {
-		DefaultMagazines = ["20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","20Rnd_762x51_DMR","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","Navy_SEAL_diver"];  
-		DefaultWeapons = ["RH_sc2sp","RH_uspsd","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
-		DefaultBackpack = "DZ_Patrol_Pack_EP1";  
-		DefaultBackpackItems = [""];
-}
-else{
-DefaultMagazines = ["30Rnd_556x45_Stanag","ItemBandage","ItemBandage","RH_15Rnd_9x19_uspsd","RH_15Rnd_9x19_uspsd","ItemMorphine","ItemPainkiller","ItemWaterbottleBoiled","FoodSteakCooked"];  
-DefaultWeapons = ["G36C","glock17_EP1","ItemFlashlight","ItemHatchet","ItemGPS","ItemMAP","ItemToolbox"];  
-DefaultBackpack = "DZ_Patrol_Pack_EP1";  
-DefaultBackpackItems = [""];
-}
+
 //Customize Death Messages
 //Enables global chat messaging of player deaths. (Also requires enableRadio true;?)   (Default: false)
 DZE_DeathMsgGlobal = true;

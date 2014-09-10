@@ -101,7 +101,7 @@ DZMSRequiredKillPercent = 0;
 DZMSSceneryDespawnTimer = 1800;
 
 // Should crates despawn with scenery? (default = false)
-DZMSSceneryDespawnLoot = false;
+DZMSSceneryDespawnLoot = true;
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // You can adjust the weapons that spawn in weapon crates inside DZMSWeaponCrateList.sqf
