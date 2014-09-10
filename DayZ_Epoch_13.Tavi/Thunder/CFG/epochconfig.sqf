@@ -83,7 +83,7 @@ DZE_DeathMsgTitleText = true;
 MaxAmmoBoxes = 50;
 
 //Change amount of mining veins on the server.
-MaxMineVeins = 50;
+MaxMineVeins = 10;
 
 //Enables Helicopter Lifting
 DZE_HeliLift = true;

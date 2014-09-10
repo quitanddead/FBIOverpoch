@@ -132,6 +132,7 @@ AllowedVehiclesList = [
 ["SUV_MG_Ori",4],
 ["ori_titanic",4],
 ["ori_smallRaft",4],
+["ori_submarine",4],
 ["ori_bigRaft",4],
 ["ori_dc3",4],
 ["ori_pragaCopter_yellow",4],
